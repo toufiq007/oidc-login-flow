@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
 
-
+// this is the useAuth hoook
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (context === undefined) {
